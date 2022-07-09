@@ -76,7 +76,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.mgf;
+})();
 })();
 </script>
 ```
@@ -161,6 +163,7 @@ y = mymgf( 2.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-mgf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var mu;
 var s;
@@ -176,6 +179,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 't: %d, µ: %d, s: %d, M_X(t;µ,s): %d', t.toFixed( 4 ), mu.toFixed( 4 ), s.toFixed( 4 ), y.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
@@ -271,7 +275,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-logistic-mgf/main/LICENSE
 
-[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta/tree/umd
+[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta/tree/umd/tree/umd
 
 [logistic-distribution]: https://en.wikipedia.org/wiki/Logistic_distribution
 
