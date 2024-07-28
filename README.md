@@ -69,13 +69,18 @@ for `st ∈ (-1,1)`, where `mu` is the location parameter and `s` is the scale p
 ## Usage
 
 ```javascript
+import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-mgf@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-logistic-mgf/tags). For example,
+
+```javascript
 import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-mgf@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-mgf@v0.2.2-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-mgf@deno/mod.js';
 ```
 
 #### mgf( t, mu, s )
@@ -152,7 +157,7 @@ y = mymgf( 2.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-mgf@v0.2.2-deno/mod.js';
+import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-mgf@deno/mod.js';
 
 var mu;
 var s;
