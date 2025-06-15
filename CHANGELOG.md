@@ -4,15 +4,25 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-06-15)
+
+<section class="features">
+
+### Features
+
+-   [`65c90fb`](https://github.com/stdlib-js/stdlib/commit/65c90fb88af1b8af95cfdc4be713c786f9180d4e) - add C implementation for `@stdlib/stats-base/dists/logistic/mgf` [(#4360)](https://github.com/stdlib-js/stdlib/pull/4360)
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#4978](https://github.com/stdlib-js/stdlib/issues/4978)
+[#3740](https://github.com/stdlib-js/stdlib/issues/3740), [#4978](https://github.com/stdlib-js/stdlib/issues/4978)
 
 </section>
 
@@ -24,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`65c90fb`](https://github.com/stdlib-js/stdlib/commit/65c90fb88af1b8af95cfdc4be713c786f9180d4e) - **feat:** add C implementation for `@stdlib/stats-base/dists/logistic/mgf` [(#4360)](https://github.com/stdlib-js/stdlib/pull/4360) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`0d255bc`](https://github.com/stdlib-js/stdlib/commit/0d255bc39e0a122554fbc972be6c0973abb2c48a) - **bench:** refactor random number generation in JS benchmarks for `stats/base/dists/logistic` [(#5139)](https://github.com/stdlib-js/stdlib/pull/5139) _(by GK Bishnoi, Gopi Kishan)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
 
@@ -37,8 +48,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Dhruv Arvind Singh
 -   GK Bishnoi
 -   Gopi Kishan
 -   Philipp Burckhardt
